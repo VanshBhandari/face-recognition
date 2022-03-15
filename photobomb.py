@@ -1,7 +1,7 @@
 import face_recognition
 from PIL import Image, ImageDraw
 
-image = face_recognition.load_image_file('F:\programming\face recognition\image\rickastley.png')
+image = face_recognition.load_image_file('https://github.com/VanshBhandari/face-recognition/blob/main/image/rickastley.png')
 face_landmarks = face_recognition.face_landmarks(image)
 
 img = Image.fromarray(image)
