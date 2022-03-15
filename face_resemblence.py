@@ -1,7 +1,7 @@
 import face_recognition
 
-image_charles = face_recognition.load_image_file('F:\programming\face recognition\image\charlesboyle.jpg')
-image_bill = face_recognition.load_image_file('F:\programming\face recognition\image\bill.jpg')
+image_charles = face_recognition.load_image_file('https://github.com/VanshBhandari/face-recognition/blob/main/image/charlesboyle.jpg')
+image_bill = face_recognition.load_image_file('https://github.com/VanshBhandari/face-recognition/blob/main/image/bill.jpg')
 
 charles_face_encoding = face_recognition.face_encodings(image_charles)[0]
 bill_face_encoding = face_recognition.face_encodings(image_bill)[0]
